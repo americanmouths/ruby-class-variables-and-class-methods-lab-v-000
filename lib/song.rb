@@ -22,6 +22,17 @@ class Song
     @@genres.uniq
   end
 
+  def self.genre_count
+    genre_count1 = {}
+    @@genres.each do |genre, song|
+      genre_count1[genre] = song
+      return genre_count1
+    end
+    end
+
+    def self.artist_count
+    end
+    
 
 end
 
