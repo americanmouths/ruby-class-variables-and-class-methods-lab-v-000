@@ -3,7 +3,7 @@ class Song
 
   @@count = 0
   @@genres = []
-  
+
   def initialize(name, artist, genre)
     @@count += 1
     @@genres << genre
@@ -13,15 +13,15 @@ class Song
     return @@count
   end
 
-  def self.genres(@@genres)
-    if @@genres.each do |k|
-      k == @@genres
-      !@@genres
+  def self.genres(genres)
+    if genres.each do |k|
+      k == genres
+      !genres
     else
     return @@genres
   end
 end
-  
+
 end
 
 #produce individual songs
