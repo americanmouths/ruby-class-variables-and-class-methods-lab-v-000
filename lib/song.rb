@@ -19,8 +19,8 @@ class Song
       !genres
     else
     return @@genres
+    end
   end
-end
 end
 
 end
